@@ -623,6 +623,17 @@ body:after {
         bottom: 0px;
         right: -90px; } }
 
+.image-centered-blurred-edge {
+  width: 726px;
+  height: 540px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  /* The shadow color must match the background or image border for the blurred edge effect. */
+  box-shadow: 0 0 8px 8px white inset;
+}
+
 .site-block-subscribe .btn {
   padding-left: 20px;
   padding-right: 20px; }
